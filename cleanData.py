@@ -19,6 +19,7 @@ querywords = data[0][1].split()
 resultwords = [word for word in querywords if word.lower() not in stopwords]
 result = ' '.join(resultwords)
 
+stopWordsListEdit = []
 
 #remove duplicates
 output = []
@@ -28,7 +29,6 @@ for value in data:
 		output.append(value[1])
 		seen.add(value[1])
 
-stopWordsListEdit = []
 
 #stop words
 for value in output:
@@ -75,6 +75,15 @@ for words in stopWordsListEdit:
 					toBeMoved.append(word)
 	if(len(toBeMoved) != 0):
 		userNameRemoved.append(' '.join(toBeMoved))
+
+
+#remove duplicates
+output = []
+seen = set()
+for value in userNameRemoved:
+	if value not in seen:
+		output.append(value)
+		seen.add(value)
 	
 '''
 #remove usernames
@@ -99,6 +108,6 @@ for i in range(0, len(userNameRemoved)):
 
 
 f = open('queryTweetsCleanedNoDups.txt', 'w')
-for i in range(0, len(userNameRemoved)):
-	f.write(json.dumps([i + 1, 0, userNameRemoved[i]]) + "\n")
+for i in range(0, len(output)):
+	f.write(json.dumps([i + 1, 0, output[i]]) + "\n")
 #f.close()
