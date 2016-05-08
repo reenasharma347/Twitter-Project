@@ -1,0 +1,160 @@
+Supp Conf  Rule
+ 0.3  0.9  day -> sneezing
+ 0.3  0.4  sneezing -> day
+
+ With a .3 support
+
+User 0: love, sneezing
+ 0.3  0.4  sneezing -> day
+
+User 1: sneezing, day
+
+User 2: love, sneezing
+ 0.3  0.4  sneezing -> day
+
+User 3: sneezing, love
+ 0.3  0.4  sneezing -> day
+
+User 4: love, sneezing
+ 0.3  0.4  sneezing -> day
+
+User 5: night, sneezing
+ 0.3  0.4  sneezing -> day
+
+User 6: sneezing, day
+
+User 7: cold, fever
+
+User 8: sneezing, day
+
+User 9: sneezing, day
+
+User 10: day, sneezing
+
+User 11: sneezing, night, fever
+ 0.3  0.4  sneezing -> day
+
+User 12: sneezing
+ 0.3  0.4  sneezing -> day
+
+User 13: day, sneezing
+
+User 14: cold, sneezing
+ 0.3  0.4  sneezing -> day
+
+User 15: sneezing, night, cold
+ 0.3  0.4  sneezing -> day
+
+User 16: cold, sneezing
+ 0.3  0.4  sneezing -> day
+
+User 17: sneezing, night
+ 0.3  0.4  sneezing -> day
+
+User 18: cold, sneezing
+ 0.3  0.4  sneezing -> day
+
+User 19: fever, cold, day
+ 0.3  0.9  day -> sneezing
+
+User 20: love, sneezing
+ 0.3  0.4  sneezing -> day
+
+User 21: sneezing, day
+
+User 22: day, sneezing
+
+User 23: day, sneezing
+
+User 24: sneezing, cold
+ 0.3  0.4  sneezing -> day
+
+User 25: Good, day, sneezing
+
+User 26: day, sneezing
+
+User 27: cold, sneezing
+ 0.3  0.4  sneezing -> day
+
+User 28: day, sneezing, flu
+
+User 29: fever, day
+ 0.3  0.9  day -> sneezing
+
+User 30: fever
+
+User 31: fever
+
+User 32: day, sneezing
+
+User 33: sneezing, cold
+ 0.3  0.4  sneezing -> day
+
+User 34: day, sneezing
+
+User 35: flu, sneezing
+ 0.3  0.4  sneezing -> day
+
+User 36: fever, sneezing
+ 0.3  0.4  sneezing -> day
+
+User 37: sneezing, day
+
+User 38: love, sneezing
+ 0.3  0.4  sneezing -> day
+
+User 39: day, sneezing
+
+User 40: love, cold, dehydrated
+
+User 41: sneezing
+ 0.3  0.4  sneezing -> day
+
+User 42: love, sneezing
+ 0.3  0.4  sneezing -> day
+
+User 43: sneezing, cold
+ 0.3  0.4  sneezing -> day
+
+User 44: day, sneezing
+
+User 45: cold, sneezing
+ 0.3  0.4  sneezing -> day
+
+User 46: love, sneezing
+ 0.3  0.4  sneezing -> day
+
+User 47: cold, sneezing
+ 0.3  0.4  sneezing -> day
+
+User 48: sneezing, cold, good
+ 0.3  0.4  sneezing -> day
+
+User 49: sneezing
+ 0.3  0.4  sneezing -> day
+
+User 50: fever
+
+User 51: love, sneezing
+ 0.3  0.4  sneezing -> day
+
+User 52: sneezing, day
+
+User 53: love, sneezing
+ 0.3  0.4  sneezing -> day
+
+User 54: love, sneezing
+ 0.3  0.4  sneezing -> day
+
+User 55: sneezing, day
+
+User 56: fever, cold
+
+User 57: cold, sneezing
+ 0.3  0.4  sneezing -> day
+
+User 58: love, sneezing
+ 0.3  0.4  sneezing -> day
+
+User 59: sneezing
+ 0.3  0.4  sneezing -> day

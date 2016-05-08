@@ -1,0 +1,315 @@
+Supp Conf  Rule
+ 0.3  0.3  flu -> cold
+ 0.3  1.0  cold -> flu
+
+ With a .3 Support
+
+User 0: cold, flu
+
+User 1: cold, flu
+
+User 2: Sneezing, day, flu
+ 0.3  0.3  flu -> cold
+
+User 3: good, cold, flu
+
+User 4: cold, flu
+
+User 5: flu, fever, night
+ 0.3  0.3  flu -> cold
+
+User 6: flu, fever
+ 0.3  0.3  flu -> cold
+
+User 7: flu
+ 0.3  0.3  flu -> cold
+
+User 8: good, day, night, cold, flu
+
+User 9: day, flu
+ 0.3  0.3  flu -> cold
+
+User 10: flu, cold
+
+User 11: flu
+ 0.3  0.3  flu -> cold
+
+User 12: flu
+ 0.3  0.3  flu -> cold
+
+User 13: cold, flu
+
+User 14: cold, flu
+
+User 15: day, flu
+ 0.3  0.3  flu -> cold
+
+User 16: flu, fever
+ 0.3  0.3  flu -> cold
+
+User 17: flu
+ 0.3  0.3  flu -> cold
+
+User 18: Cold, cold, flu
+
+User 19: flu
+ 0.3  0.3  flu -> cold
+
+User 20: flu
+ 0.3  0.3  flu -> cold
+
+User 21: cold, flu
+
+User 22: flu, love
+ 0.3  0.3  flu -> cold
+
+User 23: cold, flu
+
+User 24: fever, flu
+ 0.3  0.3  flu -> cold
+
+User 25: love, cold, flu
+
+User 26: flu, cold
+
+User 27: cold, flu
+
+User 28: flu
+ 0.3  0.3  flu -> cold
+
+User 29: diarrhea, fever, flu
+ 0.3  0.3  flu -> cold
+
+User 30: flu
+ 0.3  0.3  flu -> cold
+
+User 31: Good, flu
+ 0.3  0.3  flu -> cold
+
+User 32: Flu, flu, day
+ 0.3  0.3  flu -> cold
+
+User 33: day, flu
+ 0.3  0.3  flu -> cold
+
+User 34: flu, fever
+ 0.3  0.3  flu -> cold
+
+User 35: cold, flu
+
+User 36: day, flu
+ 0.3  0.3  flu -> cold
+
+User 37: day, flu
+ 0.3  0.3  flu -> cold
+
+User 38: flu, day
+ 0.3  0.3  flu -> cold
+
+User 39: flu
+ 0.3  0.3  flu -> cold
+
+User 40: flu
+ 0.3  0.3  flu -> cold
+
+User 41: flu, day
+ 0.3  0.3  flu -> cold
+
+User 42: flu
+ 0.3  0.3  flu -> cold
+
+User 43: fever, flu
+ 0.3  0.3  flu -> cold
+
+User 44: flu, cold
+
+User 45: flu
+ 0.3  0.3  flu -> cold
+
+User 46: night, flu, fever
+ 0.3  0.3  flu -> cold
+
+User 47: flu
+ 0.3  0.3  flu -> cold
+
+User 48: cold, flu
+
+User 49: flu, day
+ 0.3  0.3  flu -> cold
+
+User 50: cold, flu
+
+User 51: flu
+ 0.3  0.3  flu -> cold
+
+User 52: flu
+ 0.3  0.3  flu -> cold
+
+User 53: flu, fever
+ 0.3  0.3  flu -> cold
+
+User 54: flu
+ 0.3  0.3  flu -> cold
+
+User 55: flu
+ 0.3  0.3  flu -> cold
+
+User 56: flu
+ 0.3  0.3  flu -> cold
+
+User 57: flu, fever
+ 0.3  0.3  flu -> cold
+
+User 58: flu
+ 0.3  0.3  flu -> cold
+
+User 59: flu, day
+ 0.3  0.3  flu -> cold
+
+User 60: fever, flu
+ 0.3  0.3  flu -> cold
+
+User 61: love, flu
+ 0.3  0.3  flu -> cold
+
+User 62: flu, cold
+
+User 63: night, flu, fever
+ 0.3  0.3  flu -> cold
+
+User 64: cold, flu
+
+User 65: flu, day
+ 0.3  0.3  flu -> cold
+
+User 66: cold, flu
+
+User 67: flu, cold, fever
+
+User 68: flu
+ 0.3  0.3  flu -> cold
+
+User 69: cold, flu
+
+User 70: flu, day, love
+ 0.3  0.3  flu -> cold
+
+User 71: cold, flu
+
+User 72: flu, cold
+
+User 73: cold, flu
+
+User 74: cold, flu
+
+User 75: flu, fever, day
+ 0.3  0.3  flu -> cold
+
+User 76: flu
+ 0.3  0.3  flu -> cold
+
+User 77: cold, flu
+
+User 78: flu
+ 0.3  0.3  flu -> cold
+
+User 79: cold, flu
+
+User 80: cold, flu
+
+User 81: flu, cold
+
+User 82: Cold, cold, flu
+
+User 83: flu, day
+ 0.3  0.3  flu -> cold
+
+User 84: flu, cold
+
+User 85: fever, flu
+ 0.3  0.3  flu -> cold
+
+User 86: love, cold, flu
+
+User 87: cold, flu
+
+User 88: flu
+ 0.3  0.3  flu -> cold
+
+User 89: flu
+ 0.3  0.3  flu -> cold
+
+User 90: flu
+ 0.3  0.3  flu -> cold
+
+User 91: flu
+ 0.3  0.3  flu -> cold
+
+User 92: flu
+ 0.3  0.3  flu -> cold
+
+User 93: flu
+ 0.3  0.3  flu -> cold
+
+User 94: day, flu
+ 0.3  0.3  flu -> cold
+
+User 95: cold, flu
+
+User 96: flu
+ 0.3  0.3  flu -> cold
+
+User 97: flu, fever
+ 0.3  0.3  flu -> cold
+
+User 98: flu, day
+ 0.3  0.3  flu -> cold
+
+User 99: flu
+ 0.3  0.3  flu -> cold
+
+User 100: love, flu
+ 0.3  0.3  flu -> cold
+
+User 101: flu
+ 0.3  0.3  flu -> cold
+
+User 102: flu, fever
+ 0.3  0.3  flu -> cold
+
+User 103: day, flu
+ 0.3  0.3  flu -> cold
+
+User 104: flu
+ 0.3  0.3  flu -> cold
+
+User 105: fever, flu
+ 0.3  0.3  flu -> cold
+
+User 106: flu
+ 0.3  0.3  flu -> cold
+
+User 107: fever, flu
+ 0.3  0.3  flu -> cold
+
+User 108: flu
+ 0.3  0.3  flu -> cold
+
+User 109: cold, flu
+
+User 110: flu
+ 0.3  0.3  flu -> cold
+
+User 111: flu
+ 0.3  0.3  flu -> cold
+
+User 112: flu, day
+ 0.3  0.3  flu -> cold
+
+User 113: flu
+ 0.3  0.3  flu -> cold
+
+User 114: flu, day
+ 0.3  0.3  flu -> cold
+
+User 115: cold, flu
